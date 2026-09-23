@@ -35,3 +35,7 @@ fi
 # 5) 목록
 echo "현재보관중인백업:"
 ls -1 "$BACKUP_DIR" # 한줄에 하나씩 출력
+
+# 로그 기록
+echo "$(date '+%Y-%m-%d %H:%M:%S') 백업 완료: $FILENAME" >> "$BACKUP_DIR/backup.log"
+echo "로그 기록 완료"
