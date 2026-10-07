@@ -1,0 +1,3 @@
+FROM guestbook:v1
+ENV APP_TITLE="커스텀" \
+THEME_COLOR="#1f1e33"
