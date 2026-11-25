@@ -2,4 +2,5 @@ week04/backups/
 week04/restore-check/
 '*:Zone.Identifier' >> .gitignore
 .env
+__pycache__
 guestbook/k8s/secret.yaml.example
